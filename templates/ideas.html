@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Project Flow</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+
+<body>
+
+<nav>
+
+    <h2>&lt;/&gt; DevTrack</h2>
+
+    <div>
+
+        <a href="/contribution">Dashboard</a>
+
+        <a href="/workspace">Workspace</a>
+
+    </div>
+
+</nav>
+
+
+<main class="container">
+
+    <div class="page-title">
+
+        <h1>Ideas & Project Flow 💡</h1>
+
+        <p>Create and manage your project workflow.</p>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>Add Project Step</h2>
+
+        <div class="add-flow">
+
+            <input
+                id="stepTitle"
+                placeholder="Example: Database Design"
+            >
+
+            <button id="addStepBtn" class="btn">
+
+                + Insert
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>Project Flow</h2>
+
+        <div id="projectFlow"></div>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>Flowchart Editor</h2>
+
+        <iframe
+            src="https://embed.diagrams.net/?embed=1&ui=atlas&spin=1"
+            class="drawio"
+        ></iframe>
+
+    </div>
+
+</main>
+
+
+<script src="/static/script.js"></script>
+
+</body>
+
+</html>
